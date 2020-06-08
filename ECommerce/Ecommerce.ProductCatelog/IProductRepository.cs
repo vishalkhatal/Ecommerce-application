@@ -1,10 +1,16 @@
-﻿using System;
+﻿using Ecommerce.ProductCatelog.Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Ecommerce.ProductCatelog
 {
-    class IProductRepository
+    interface IProductRepository
     {
+        Task AddProduct(Product product);
+
+        Task<IEnumerable<Product>> GetAllProducts();
+
     }
 }
