@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ECommerce/.vs/ECommerce
+/ECommerce/ECommerce/obj/x64/Debug
+/ECommerce/Ecommerce.ProductCatelog/bin/Debug/netcoreapp3.1/win7-x64
+/ECommerce/Ecommerce.ProductCatelog/obj
+/ECommerce/Ecommerce.ProductCatelog.Model/bin/Debug/netstandard2.0
+/ECommerce/Ecommerce.ProductCatelog.Model/obj
+/ECommerce/packages/Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.6.9
